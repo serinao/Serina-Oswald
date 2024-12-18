@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: 'Playfair Display', serif; /* Parisian elegance */
+  background-color: #fdfdfd; /* Soft white */
+  color: #2c2c2c; /* Rich dark gray for text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  background-color: #faf3e0; /* Creamy off-white */
+  color: #2c2c2c; 
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid #d3c3a3; /* Gold-accented border */
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+nav a {
+  color: #2c2c2c;
+  margin: 0 15px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; /* Clean, modern touch */
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+}
+
+nav a:hover {
+  color: #d3c3a3; /* Subtle gold highlight */
+}
+
+/* Section Styles */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ececec; /* Subtle, clean border */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+  border-radius: 12px;
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  color: #2c2c2c;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d3c3a3; /* Elegant gold underline */
+  padding-bottom: 5px;
+}
+
+section p,
+section ul,
+section ol {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  margin: 15px 0;
+  color: #3a3a3a;
+}
+
+/* List Styling */
+ul, ol {
+  padding-left: 25px;
+}
+
+ul li, ol li {
+  margin: 10px 0;
+  list-style-type: none;
+  position: relative;
+}
+
+ul li::before {
+  content: '•';
+  color: #d3c3a3; /* Gold bullet */
+  font-size: 1.5em;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+
+/* Images and Media */
+.media-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.media-container img {
+  border-radius: 10px;
+  border: 2px solid #ececec; /* Clean and light border */
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+iframe {
+  border-radius: 10px;
+  border: 2px solid #ececec;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #2c2c2c;
+  color: #faf3e0; /* Creamy contrast */
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+  color: #d3c3a3; /* Gold links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffffff; /* Subtle interaction */
+}
